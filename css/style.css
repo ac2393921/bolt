@@ -49,13 +49,13 @@
 
 .header__btn-contact:hover {
   color: #333;
-  transition: 0.3s;
+  transition: all .3s;
 }
 
 /* main */
 .main__txt {
   font-size: 20px;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 /* heading */
@@ -102,7 +102,7 @@
   top: 50%;
   right: 150px;
   transform: translateY(-50%);
-  width: 750px;
+  width: 650px;
 }
 
 .introduction__title {
@@ -138,7 +138,7 @@
 
 .work__items > .work__item:hover {
   opacity: 1;
-  transition: 0.3s;
+  transition: all .3s;
 }
 
 .work__items > li:nth-child(3n+1) {
@@ -153,7 +153,7 @@
 .work .work__txt .main__txt {
   color: #c0c0c0;
   display: inline-block;
-  width: 657px;
+  width: 580px;
 }
 
 .work__btn-mail {
@@ -169,7 +169,7 @@
 
 .work__btn-mail:hover {
   color: #333;
-  transition: 0.3s;
+  transition: all .3s;
 }
 
 /* skills */
@@ -190,11 +190,9 @@
   text-align: center;
 }
 
-.skills__contents {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-}
+/* .skills__contents {
+  margin: 0 auto;
+} */
 
 .skills__content {
   display: inline-block;
@@ -202,7 +200,7 @@
 }
 
 .skills__content:first-child {
-  margin-left: 0;
+  margin-left: 35px;
 }
 
 .skills__txt {
@@ -241,7 +239,7 @@
 
 .sns__item:hover {
   background-color: #fff;
-  transition: 0.3s;
+  transition: all .3s;
 }
 
 /* footer */
