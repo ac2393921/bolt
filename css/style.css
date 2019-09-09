@@ -37,6 +37,10 @@ body {
   font-size: 50px;
 }
 
+.header__icon-bar {
+  display: none;
+}
+
 .header__btn-contact {
   background-color: #74cfae;
   color: #fff;
@@ -86,7 +90,6 @@ body {
 
 /* Boltpc-introduction */
 .introduction {
-  position: relative;
   background-color: #74cfae;
 }
 
@@ -227,7 +230,6 @@ body {
   padding: 200px 0;
 }
 
-
 .sns__items {
   text-align: center;
 }
@@ -260,4 +262,123 @@ body {
   color: #fff;
   font-size: 16px;
   text-align: right;
+}
+
+/* Boltpad */
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 730px;
+  }
+
+  /* Boltpad-introduction */
+  .introduction__inner {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .introduction__img-iphone {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .introduction__txt {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .introduction__title {
+    margin-top: 20px; 
+    margin-bottom: 35px;
+  }
+
+  /* Boltpad-work */
+  .work__items {
+    font-size: 0;
+    text-align: center;
+  }
+  
+  .work__items > .work__item {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .work__items > .work__item:nth-child(3n+1) {
+    margin: 80px auto 0 auto; 
+  }
+
+  .work__items > .work__item:first-child {
+    margin-top: 0; 
+  }
+  
+  .work__txt {
+    margin-top: 80px;
+  }
+  
+  .work .work__txt .main__txt {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .work__btn-mail {
+    display: inline-block;
+    margin: 40px auto 0 auto;
+  }
+
+  /* Boltpad-skills */
+  .skills__content {
+    display: block;
+    margin: 88px auto 0;
+  }
+
+  .skills__content:first-child {
+    margin-top: 0px;
+  }
+}
+
+/* Boltsp */
+@media screen and (max-width: 767px) {
+  .inner {
+    width: 360px;
+  }
+
+  /* Boltsp-header */
+  .header__btn-contact {
+    display: none;
+  }
+
+  .header__icon-bar {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #ddd;
+    display: block;
+    float: right;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  /* Boltsp-heading */
+  .heading__inner {
+    padding-top: 160px;
+    padding-bottom: 130px; 
+  }
+  
+  .heading__ttl {
+    font-size: 80px;
+  }
+
+  /* Boltsp-sns */
+  .sns__inner {
+    padding: 50px 0;
+  }
+
+  .sns__item {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
